@@ -5,10 +5,11 @@ body {
 
 body::before {
     content: '';
-    background-image: url(/imagens/foto-de-fundo.png);
+    background-image: url(../imagens/foto-de-fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    background-position: center center;
     width: 100%;
     height: 100%;
     opacity: .7;
