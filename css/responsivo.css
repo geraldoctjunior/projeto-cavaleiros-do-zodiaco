@@ -1,6 +1,62 @@
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
+    .logo img {
+        width: 350px;
+    }
+
     .cabecalho .titulo {
         font-size: 60px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens {
+        max-width: 330px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .logo img {
+        width: 320px;
+    }
+
+    .cabecalho .titulo {
+        font-size: 60px;
+    }
+
+    .selecao-de-personagens .personagem-grande {
+        text-align: center;
+        width: 30%;
+        height: 50vh;
+        position: relative;
+    }
+
+    .selecao-de-personagens .lista-de-personagens {
+        max-width: 330px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .logo img {
+        width: 300px;
+    }
+
+    .cabecalho .titulo {
+        font-size: 60px;
+    }
+
+    .selecao-de-personagens .personagem-grande {
+        text-align: center;
+        width: 30%;
+        height: 40vh;
+        position: relative;
     }
 
     .selecao-de-personagens .lista-de-personagens {
@@ -28,7 +84,7 @@
     }
 
     .logo img {
-        width: 390px;
+        width: 300px;
     }
 
     .cabecalho .titulo {
